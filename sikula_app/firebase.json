@@ -1,0 +1,1 @@
+{"flutter":{"platforms":{"android":{"default":{"projectId":"sikula-1","appId":"secret","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"sikula-1","configurations":{"android":"secret","ios":"secret","macos":"secret","web":"secret","windows":"secret"}}}}}}

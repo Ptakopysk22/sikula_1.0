@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "secret",
+    "project_id": "sikula-1",
+    "storage_bucket": "sikula-1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "secret",
+        "android_client_info": {
+          "package_name": "com.example.sikula"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "secret",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.sikula",
+            "certificate_hash": "secret"
+          }
+        },
+        {
+          "client_id": "secret",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "secret"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "secret",
+              "client_type": 3
+            },
+            {
+              "client_id": "secret",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.sikula"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

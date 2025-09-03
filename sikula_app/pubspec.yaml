@@ -1,0 +1,49 @@
+name: sikula
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.1
+  go_router: ^14.1.0
+  postgres: ^3.1.0
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.19.2
+  google_sign_in: ^6.2.1
+  dropdown_textfield: ^1.0.8 
+  dropdown_button2: ^2.3.8
+  font_awesome_flutter: ^10.4.0
+  url_launcher: ^6.2.6
+  intl: ^0.18.1
+  qr_flutter: ^4.1.0
+  audioplayers: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_nfc_kit: ^3.5.2
+  loading_animation_widget: ^1.2.1
+  uni_links: ^0.5.1
+  nfc_manager: ^3.5.0
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/shotgun_reload.mp3
+    - assets/sounds/shotgun_firing.mp3
+    - assets/sounds/revolver_chamber_spin.mp3
+    - assets/
+  fonts:
+    - family: Rye
+      fonts:
+        - asset: assets/fonts/Rye-Regular.ttf
+    - family: Smokum
+      fonts:
+        - asset: assets/fonts/Smokum-Regular.ttf
